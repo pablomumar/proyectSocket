@@ -1,7 +1,6 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,12 @@
   "bugs": {
     "url": "https://github.com/pablomumar/proyectSocket/issues"
   },
-  "homepage": "https://github.com/pablomumar/proyectSocket#readme"
+  "homepage": "https://github.com/pablomumar/proyectSocket#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
 }
