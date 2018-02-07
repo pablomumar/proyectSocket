@@ -1,0 +1,10 @@
+<h5>Chat Global: </h5>
+<div class="chatView">
+  <ul *ngFor="let message of msgList">
+    <li>{{message}}</li>
+  </ul>
+</div>
+<div class="input-button">
+  <input type="text" [(ngModel)]="msg" name="msg_input"/>
+  <button (click)="sendMsg()" (keyup)="$event.keyCode == 13 && sendMsg()">Enviar</button>
+</div>

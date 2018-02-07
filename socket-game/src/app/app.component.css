@@ -2,4 +2,13 @@ html{
   background-color: red;
 }
 
-
+app-chat-global{
+  position: fixed;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 32vh;
+  width: 100%;
+  border-top: black 1px solid;
+  background-color: lightgrey;
+}

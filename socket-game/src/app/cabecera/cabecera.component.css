@@ -1,3 +1,9 @@
 div {
   border-bottom: black 1px solid;
 }
+
+img{
+  height: 7vh;
+  width: auto;
+  float: left;
+}

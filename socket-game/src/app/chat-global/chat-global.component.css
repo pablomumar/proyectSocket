@@ -1,0 +1,48 @@
+.chatView{
+  height: 20vh;
+  overflow: auto;
+}
+
+.chatView::-webkit-scrollbar{
+  display: none;
+}
+
+h5{
+  width: 100%;
+  background-color: gray;
+}
+
+.input-button{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: red 2px solid;
+  background-color: red;
+}
+
+.input-button>input{
+  width: 84%;
+  margin-left: 5px;
+  margin-bottom: 2px;
+}
+
+.input-button>button{
+  width: 11%;
+  float: right;
+  margin-right: 2%;
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  padding: 5px 10px;
+  line-height: 1px;
+}
+
