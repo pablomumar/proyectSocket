@@ -53,6 +53,16 @@ export class JuegoComponent implements OnInit {
     }, Math.random() * (4500 - 1500) + 1500);
   }
 
+  disparar(){
+    if (this.enable_shot){
+      console.log('bien');
+      this.enable_shot= false
+    } else {
+      console.log('mal');
+      console.log('has perdio chaval')
+    }
+  }
+
   // Hide or show buttons
 
   static hideStartButton(){

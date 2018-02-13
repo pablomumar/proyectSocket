@@ -1,0 +1,15 @@
+h1 {
+  min-height: 36vh;
+  font-size: 30vh;
+  color: white;
+  align-self: center;
+}
+
+.flex-div{
+  display: flex;
+  flex-direction: column;
+}
+
+#reset{
+  display: none;
+}
