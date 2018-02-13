@@ -5,10 +5,11 @@ import { RouterModule, Routes } from "@angular/router";
 import { FormsModule } from "@angular/forms";
 
 import { AppComponent } from './app.component';
-import { InicioComponent } from './inicio/inicio.component';
-import { JuegoComponent } from './juego/juego.component';
+import { InicioComponent } from './contenido/inicio/inicio.component';
+import { JuegoComponent } from './contenido/juego/juego.component';
 import { CabeceraComponent } from './cabecera/cabecera.component';
-import { ChatGlobalComponent } from './chat-global/chat-global.component';
+import { ChatGlobalComponent } from './contenido/chat-global/chat-global.component';
+import { ContenidoComponent } from './contenido/contenido.component';
 
 const appRoutes: Routes = [
   {path: '', component: JuegoComponent}, //Es InicioComponent cuando haga las rooms
@@ -21,7 +22,8 @@ const appRoutes: Routes = [
     InicioComponent,
     JuegoComponent,
     CabeceraComponent,
-    ChatGlobalComponent
+    ChatGlobalComponent,
+    ContenidoComponent
   ],
   imports: [
     BrowserModule,

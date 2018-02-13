@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {SocketServiceService} from "../socket-service.service";
+import {SocketServiceService} from "../../socket-service.service";
 
 @Component({
   selector: 'app-chat-global',
@@ -8,7 +8,7 @@ import {SocketServiceService} from "../socket-service.service";
 })
 export class ChatGlobalComponent implements OnInit {
   msg: string;
-  msgList: string[] = ['e', 'e', 'e', 'e', 'e', 'e', 'e', 'e', 'e', 'e', 'e', 'e', 'e', 'e', 'e', 'e'];
+  msgList: string[] = [];
 
   constructor(private chatService: SocketServiceService) { }
 
